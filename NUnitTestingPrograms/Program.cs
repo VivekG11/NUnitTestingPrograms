@@ -23,6 +23,14 @@ namespace NUnitTestingPrograms
                     Console.WriteLine("Finding day of a particular date");
                     WeekDay.FindingDay();
                     break;
+                case 3:
+                    Console.WriteLine("Coverting temperature :");
+                    TemperatureConversion.Conversion();
+                    break;
+                case 4:
+                    Console.WriteLine("Calculating Monthly Payments :");
+                    Payment.MonthlyPayment();
+                    break;
                 default:
                     break;
             }
