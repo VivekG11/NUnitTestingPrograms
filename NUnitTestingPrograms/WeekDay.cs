@@ -8,6 +8,9 @@ namespace NUnitTestingPrograms
     {
         public static void FindingDay()
         {
+            /*........................................
+             * Create thre variables to assign date , month and year
+             * ......................................*/
             Console.WriteLine("Enter the date :");
             int date = Convert.ToInt32(Console.ReadLine());
 
@@ -18,7 +21,9 @@ namespace NUnitTestingPrograms
             int year = Convert.ToInt32(Console.ReadLine());
 
             string[] weekDays = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
-
+            /*.................................................
+             * Calculate Using Gregorian Formula
+             * ...............................................*/
             int y0 = year - (14 - month) / 12;
             int x = y0 + y0 / 4 - y0 / 100 + y0 / 400;
             int m0 = month + 12 * ((14 - month) / 12) - 2;
