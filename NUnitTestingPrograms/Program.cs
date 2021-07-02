@@ -19,6 +19,10 @@ namespace NUnitTestingPrograms
                     Console.WriteLine("Calculating Minimum number of notes :");
                     VendingMachine.FindingMinimumNotes();
                     break;
+                case 2:
+                    Console.WriteLine("Finding day of a particular date");
+                    WeekDay.FindingDay();
+                    break;
                 default:
                     break;
             }
