@@ -16,6 +16,8 @@ namespace NUnitTestingPrograms
             switch(option)
             {
                 case 1:
+                    Console.WriteLine("Calculating Minimum number of notes :");
+                    VendingMachine.FindingMinimumNotes();
                     break;
                 default:
                     break;
