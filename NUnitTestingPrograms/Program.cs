@@ -15,10 +15,34 @@ namespace NUnitTestingPrograms
 
             switch(option)
             {
+
                 case 1:
+                    Console.WriteLine("Calculating Minimum number of notes :");
+                    VendingMachine.FindingMinimumNotes();
+                    break;
+                case 2:
+                    Console.WriteLine("Finding day of a particular date");
+                    WeekDay.FindingDay();
+                    break;
+                case 3:
+                    Console.WriteLine("Coverting temperature :");
+                    TemperatureConversion.Conversion();
+                    break;
+                case 4:
+                    Console.WriteLine("Calculating Monthly Payments :");
+                    Payment.MonthlyPayment();
+                    break;
+                case 5:
+                    Console.WriteLine("Finding root of a number :");
+                    NewtonSquareRoot.SquareRoot();
+                    break;
+                case 6:
+                    Console.WriteLine("Converting to binary... :");
+                    Binary.ConvertToBinary();
                     break;
                 default:
                     break;
+               
             }
         }
     }
