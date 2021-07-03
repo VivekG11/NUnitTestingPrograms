@@ -31,6 +31,14 @@ namespace NUnitTestingPrograms
                     Console.WriteLine("Calculating Monthly Payments :");
                     Payment.MonthlyPayment();
                     break;
+                case 5:
+                    Console.WriteLine("Finding root of a number :");
+                    NewtonSquareRoot.SquareRoot();
+                    break;
+                case 6:
+                    Console.WriteLine("Converting to binary :");
+                    Binary.ConvertToBinary();
+                    break;
                 default:
                     break;
             }
